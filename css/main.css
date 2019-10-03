@@ -18,42 +18,44 @@ nav ul {
   background-color: #eee8d5;
 }
 
-.contents, .favs, .facts, .types {
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
-.wrapper .dfn {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn > strong {
+p + strong {
   color: #fff;
 }
 
-a {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-ul li:last-child {
+[rel="external"] {
   background-color: #2694d8;
+
+
 }
 
 ol li:first-child {
-color: #719e47;
+  color: #719e47;
 }
 
 ol li:last-child {
   color: #2aa198;
 }
 
-.types ul li:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types ul li:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types ul li:nth-child(3) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
