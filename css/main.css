@@ -15,11 +15,11 @@ nav ul {
 }
 
 .wrapper {
-  background-color: #ee8d5;
+  background-color: #eee8d5;
 }
 
 .contents, .favs, .facts, .types {
-color: #93a1a1;
+  color: #93a1a1;
 }
 
 .wrapper .dfn {
@@ -34,26 +34,26 @@ a {
   background-color: #719e07;
 }
 
-ul li: last-child {
+ul li:last-child {
   background-color: #2694d8;
 }
 
-ol li: first-child {
+ol li:first-child {
 color: #719e47;
 }
 
-ol li: last-child {
-color: #2aa198;
+ol li:last-child {
+  color: #2aa198;
 }
 
-.types ul li:nth-child(odd){
+.types ul li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types ul li:nth-child(even){
+.types ul li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types ul li:nth-child(3){
-background-color: #d04b16;
+.types ul li:nth-child(3) {
+  background-color: #d04b16;
 }
